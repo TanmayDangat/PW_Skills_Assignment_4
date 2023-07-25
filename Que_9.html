@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Que 9</title>
+    <style>
+      .btn {
+        background-color: #ef6262;
+        border: none;
+        padding: 10px;
+        font-size: large;
+      }
+
+      .main{
+        position: relative;
+        top: 10px;
+        display: inline-block;
+      }
+
+      .content{
+        position: absolute;
+        display: none;
+        width: 190px;
+        height: 150px;
+        overflow-y: scroll;
+        background-color: #e7e5e5;
+        border: 1px solid #d6d4d4;
+      }
+
+      .main:hover .content{
+        display: block;
+      }
+
+      .opt_name{
+        padding: 10px;
+        cursor: pointer;
+      }
+
+      .opt_name:hover{
+        background-color: #f4f3f3;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <button class="btn">Hover to view options</button>
+      <div class="content">
+        <div class="opt_name">Option 1</div>
+        <div class="opt_name">Option 2</div>
+        <div class="opt_name">Option 3</div>
+        <div class="opt_name">Option 4</div>
+        <div class="opt_name">Option 5</div>
+        <div class="opt_name">Option 6</div>
+        <div class="opt_name">Option 7</div>
+        <div class="opt_name">Option 8</div>
+        <div class="opt_name">Option 9</div>
+        <div class="opt_name">Option 10</div>
+      </div>
+    </div>
+  </body>
+</html>
